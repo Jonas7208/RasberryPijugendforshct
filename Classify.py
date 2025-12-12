@@ -3,7 +3,6 @@
 Raspberry Pi - Müll-Klassifizierung mit TFLite
 Klassifiziert Bilder mit dem trainierten Modell
 """
-from Foto import
 import numpy as np
 from PIL import Image
 import tflite_runtime.interpreter as tflite  # Für Raspberry Pi
